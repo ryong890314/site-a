@@ -1,0 +1,861 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<meta name="format-detection" content="telephone=no">
+<title>Keywordlab</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+</head>
+<body id="[##_body_id_##]" class="<s_if_var_layout-type>[##_var_layout-type_##] </s_if_var_layout-type><s_if_var_color-type>[##_var_color-type_##]</s_if_var_color-type><s_if_var_post-type> [##_var_post-type_##]</s_if_var_post-type><s_if_var_view-more> paging-view-more</s_if_var_view-more>">
+<s_t3>
+<div id="wrap">
+	
+	<!-- Header 영역 -->
+	
+	<header id="header">
+		<div class="inner">
+			<h1>
+				<a href="https://keywordlab.net">
+					<img src="./images/logo.png" alt="keywordlab">
+				</a>
+			</h1>
+			<button type="button" class="mobile-menu"><span>메뉴</span></button>
+			
+			<nav id="gnb">
+				<ul>
+					<li>
+						<a class="main_menu" href="/entry/회사소개">키워드랩</a>
+						<ul>
+							<div class="sub_menu">
+								<div class="title">
+									<p>키워드랩</p>
+								</div>
+								<div class="list">
+									<li><a href="/entry/회사소개">회사소개</a></li>
+									<li><a href="/entry/참여사업">참여사업</a></li>
+									<li><a href="/entry/수상-및-특허">수상 및 특허</a></li>
+								</div>
+								<div class="banner">
+									<div class="img" style="background-image: url(./images/co_bg_img1.jpg);"></div>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li>
+						<a class="main_menu" href="/entry/OCT">연구</a>
+						<ul>
+							<div class="sub_menu">
+								<div class="title">
+									<p>연구</p>
+								</div>
+								<div class="list">
+									<li><a href="/entry/OCT">OCT</a></li>
+									<li><a href="/entry/머신러닝">머신러닝</a></li>
+									<li><a href="/entry/빅데이터">빅데이터</a></li>
+									<li><a href="/entry/센서네트워크">센서네트워크</a></li>
+								</div>
+								<div class="banner">
+									<div class="img" style="background-image: url(./images/service_rnd_bg_img.jpg);"></div>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li>
+						<a class="main_menu" href="/category/개발">개발</a>
+						<ul>
+							<div class="sub_menu">
+								<div class="title">
+									<p>개발</p>
+								</div>
+								<div class="list">
+									<li><a href="/category/개발/웹개발">웹개발</a></li>
+									<li><a href="/category/개발/앱개발">앱개발</a></li>
+									<li><a href="/category/개발/어플리케이션">어플리케이션</a></li>
+								</div>
+								<div class="banner">
+									<div class="img" style="background-image: url(./images/development_bg_img.jpg);"></div>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li>
+						<a class="main_menu" href="/entry/램플">제품화</a>
+						<ul>
+							<div class="sub_menu">
+								<div class="title">
+									<p>제품화</p>
+								</div>
+								<div class="list">
+									<li><a href="/entry/램플">램플</a></li>
+									<li><a href="/entry/똑똑한리딩펜">똑똑한리딩펜</a></li>
+									<li><a href="/entry/안전벨트클립">안전벨트클립</a></li>
+								</div>
+								<div class="banner">
+									<div class="img" style="background-image: url(./images/production_bg_img.jpg);"></div>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li>
+						<a class="main_menu" href="/category/디자인">디자인</a>
+						<ul>
+							<div class="sub_menu">
+								<div class="title">
+									<p>디자인</p>
+								</div>
+								<div class="list">
+									<li><a href="/category/디자인/브랜딩">브랜딩</a></li>
+									<li><a href="/category/디자인/제품">제품</a></li>
+									<li><a href="/category/디자인/시각디자인">시각디자인</a></li>
+								</div>
+								<div class="banner">
+									<div class="img" style="background-image: url(./images/design_bg_img.jpg);"></div>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li>
+						<a class="main_menu" href="/category/새소식">새소식</a>
+						<ul>
+							<div class="sub_menu">
+								<div class="title">
+									<p>새소식</p>
+								</div>
+								<div class="list">
+									<li><a href="/category/새소식/기업소식">기업소식</a></li>
+									<li><a href="/category/새소식/업계뉴스">업계뉴스</a></li>
+									<li><a href="/category/새소식/채용정보">채용정보</a></li>
+								</div>
+								<div class="banner">
+									<div class="img" style="background-image: url(./images/news_bg_img.jpg);"></div>
+								</div>
+							</div>
+						</ul>
+					</li>
+					<li>
+						<a class="main_menu" href="/guestbook">문의</a>
+					</li>
+				</ul>
+			</nav>
+			
+		</div>
+	</header>
+	
+	<!-- // Header 영역 -->
+	
+	<hr>
+			
+	<!-- Container 영역 -->
+	
+	<section class="container">
+		<article id="content">
+
+	<!-- 메인화면 영역 -->		
+			
+			<s_cover_group>
+					<s_cover_rep>
+												
+						<s_cover name='main-panel-1'>
+							
+							<div class='main_cover'>
+								<video src="./images/main.mp4" autoplay="" loop="" muted="" poster="" playsinline=""></video>
+								<p class="main_cover_slogan">키워드랩을 소개합니다.</p>
+								<p class="main_cover_text">키워드랩은 변화와 혁신, 도전을 두려워하지 않는 차별성있는 기술력을 선보이겠습니다.<br>
+									최상의 품질(Quality), 최고의 서비스(Service), 최대의 만족감(Satisfaction)을<br>
+									제공하여 소통하며, 신뢰받는 기업이 되고자 합니다.</p>
+								<p class="main_cover_button">
+									<a href="/entry/회사소개">자세히 보기</a>
+								</p>
+							</div>
+							<div class="main_research_field">
+								<div class="main_content_wrap">
+								<div class="title">
+									<h1>연구 분야</h1>
+									<p>키워드랩은 여러 분야에서 최고 수준의 연구역량을 보유하고 있습니다.</p>
+								</div>
+								<ul class="list">
+									<li style="background-image: url(./images/service_ai_bg_img.jpg);">
+										<a href="/entry/OCT">
+											<div class="text">
+												<h1>OCT</h1>
+												<p>망막의 단면을 정확하게 촬영하는 기술입니다.</p>
+												<p class="hide">안구 생체 조직의 단층영상 및 횡단면을 검사하는 첨단 의료장비로, 빛을 투과시켜 조직 내에서 반사되는 빛의 시간 차이를 이용해 높은 해상도의 단층 영상을 얻는 새로운 기술입니다.</p>
+												<p class="more">자세히 보기</p>
+											</div>
+										</a>
+									</li>
+									<li style="background-image: url(./images/service_ml_bg_img.jpg);">
+										<a href="/entry/머신러닝">
+											<div class="text">
+												<h1>머신러닝</h1>
+												<p>컴퓨터가 스스로 학습할 수 있도록 도와주는 기술입니다.</p>
+												<p class="hide">데이터 기반의 심층 분석과 기계학습 및 원시데이터를 목적에 맞게 분석하고 결과를 확보하고 머신러닝을 통해 정교한 예측 함수를 도출하여 미래의 데이터를 예측합니다. </p>
+												<p class="more">자세히 보기</p>
+											</div>
+										</a>
+									</li>
+									<li style="background-image: url(./images/service_bigdata_bg_img.jpg);">
+										<a href="/entry/빅데이터">
+											<div class="text">
+												<h1>빅데이터</h1>
+												<p>대량의 데이터로부터 가치를 추출하고 결과를 분석합니다.</p>
+												<p class="hide">수많은 데이터가 쏟아지는 시대에 데이터를 읽어내고 해석하는 능력이 필수 역량이 되었습니다. 전문가의 컨설팅을 통해 비즈니스 가치를 창출합니다.</p>
+												<p class="more">자세히 보기</p>
+											</div>
+										</a>
+									</li>
+									<li style="background-image: url(./images/service_rnd_bg_img.jpg);">
+										<a href="/entry/센서네트워크">
+											<div class="text">
+												<h1>센서네트워크</h1>
+												<p>장소에 구애받지 않고 언제 어디서나 컴퓨팅 환경에 접속할 수 있습니다.</p>
+												<p class="hide">센서네트워크는 공간적으로 분산된 자율 센서로 구성되어 온도, 진동, 소리, 습도, 압력, 모션 또는 오염 물질과 같은 물리적 또는 환경적 상태를 모니터링합니다.</p>
+												<p class="more">자세히 보기</p>
+											</div>
+										</a>
+									</li>
+								</ul>
+								</div>
+							</div>
+							
+							<div class="main_development_field">
+								<div class="main_content_wrap">
+								<div class="title">
+									<h1>개발 분야</h1>
+									<p>키워드랩은 높은 전문성을 바탕으로 개발하고 있습니다.</p>
+								</div>
+								<ul class="list">
+									<li>
+										<a href="/category/개발/웹개발">
+											<i class="fas fa-desktop"></i>
+										<span>웹개발</span>
+										<p>자세히 보기</p>
+										</a>
+									</li>
+									<li>
+										<a href="/category/개발/앱개발">
+											<i class="fas fa-mobile-alt"></i>
+										<span>앱개발</span>
+										<p>자세히 보기</p>
+										</a>
+									</li>
+									<li>
+										<a href="/category/개발/어플리케이션">
+											<i class="fas fa-th"></i>
+										<span>어플리케이션</span>
+										<p>자세히 보기</p>
+										</a>
+									</li>
+								</ul>
+								</div>
+							</div>
+							
+							<div class="main_production_field">
+								<div class="main_content_wrap">
+								<div class="title">
+									<h1>제품화 분야</h1>
+									<p>키워드랩의 제품을 만나보세요.</p>
+								</div>
+								<section class="flex_selection_box">
+									<div class="section" style="background: url('./images/production_lample_bg_img.jpg') center; background-size: cover;">
+										<a href="/entry/램플">
+										<div class="cont_title">
+											<h1>램플</h1>
+											<p>CO, CO2센서 탑재하여 위험 감지 및 LED를 통해 위험 상태 파악</p>
+											<p class="more">자세히 보기</p>
+										</div>
+										</a>
+									</div>
+									<div class="section" style="background: url('./images/production_pen_bg_img.jpg') center; background-size: cover;">
+										<a href="/entry/똑똑한리딩펜">
+										<div class="cont_title">
+											<h1>똑똑한리딩펜</h1>
+											<p>영단어를 스캐닝하여 레코딩 및 음성을 텍스트로 변환</p>
+											<p class="more">자세히 보기</p>
+										</div>
+										</a>
+									</div>
+									<div class="section" style="background: url('./images/production_belt_bg_img.jpg') center; background-size: cover;">
+										<a href="/entry/안전벨트클립">
+										<div class="cont_title">
+											<h1>안전벨트클립</h1>
+											<p>탑승객의 안전벨트 착용 여부 확인 및 승차객 여부 알림</p>
+											<p class="more">자세히 보기</p>
+										</div>
+										</a>
+									</div>
+								</section>
+								</div>
+							</div>
+							
+							<div class="main_design_field">
+								<div class="main_content_wrap">
+								<div class="title">
+									<h1>디자인 분야</h1>
+									<p>키워드랩은 다양한 분야에서 디자인하고 있습니다.</p>
+								</div>
+								<ul class="list">
+									<li>
+										<a href="/category/디자인/브랜딩">
+										<i class="fas fa-shopping-bag"></i>
+										<span>브랜딩</span>
+										<p>자세히 보기</p>
+										</a>
+									</li>
+									<li>
+										<a href="/category/디자인/제품">
+											<i class="fas fa-box"></i>
+										<span>제품</span>
+										<p>자세히 보기</p>
+										</a>
+									</li>
+									<li>
+										<a href="/category/디자인/시각디자인">
+										<i class="fas fa-pencil-ruler"></i>
+										<span>시각디자인</span>
+										<p>자세히 보기</p>
+										</a>
+									</li>
+								</ul>
+								</div>
+							</div>
+							
+							<div class="main_company_field">
+								<div class="main_content_wrap">
+									<div class="title">
+										<h1>회사소개</h1>
+										<p>키워드랩을 소개합니다.</p>
+									</div>
+									<div class="cover">
+										<div class="info_frame">
+											<div class="content">
+											<h1>키워드랩<br>Keywordlab</h1>
+											<p>㈜키워드랩은 변화와 혁신, 도전을 두려워하지 않는 차별성있는 기술력을 선보이겠습니다.
+												최상의 품질(Quality), 최고의 서비스(Service), 최대의 만족감(Satisfaction)을 제공하여 소통하며, 신뢰받는 기업이 되고자 합니다.</p>
+											</div>
+										</div>
+										<div class="license_frame">
+											<div class="content">
+												<h1>수상 및 특허<br>Awards &amp; License</h1>
+												<!--슬라이드-->
+                        <div class="swiper-container">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/license_banner_img1.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>특허증</h1>
+                                  <p>특허 제 10-1795055호<br><br>이미지 인식률을 높이기 위한 이미지 인식 장치 및 방법</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/license_banner_img2.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>특허증</h1>
+                                  <p>특허 제 10-1353521호<br><br>키워드 추출 방법 및 시스템, 그리고 대화보조 장치</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/license_banner_img3.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>디자인등록증</h1>
+                                  <p>등록 제 30-1071567호<br><br>캠핑용 랜턴</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/license_banner_img4.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>디자인등록증</h1>
+                                  <p>등록 제 30-1067903호<br><br>휴대용 랜턴</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/license_banner_img5.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>상표등록증</h1>
+                                  <p>등록 제 40-1630919호<br><br>LNG가스누출 경보기등 20건</p>
+                                </div>
+                              </div>
+                            </div>
+														 <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/awards_banner_img1.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>2020 강원 창의 디자인 공모전</h1>
+                                  <p>장려상 수상</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/awards_banner_img2.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>2020 LED 조명융합 디자인 공모전<br></h1>
+                                  <p>사업화 부문 장려상 수상</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/awards_banner_img3.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>2019 대한민국 어린이 안전산업 공모전</h1>
+                                  <p>동상 수상</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/awards_banner_img4.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>2019 지식재산 정보 활용 창업 경진대회</h1>
+                                  <p>입선</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/awards_banner_img5.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>2018 지역기업 애로해결 경진대회</h1>
+                                  <p>입선</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/awards_banner_img6.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>2018 경북 일자리 청년포럼단</h1>
+                                  <p>제안서 선정</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="banner" style="background-image: url('./images/awards_banner_img7.jpg')"></div>
+                              <div class="text">
+                                <div class="box">
+                                  <h1>2018 창업아이디어 피칭 오디션</h1>
+                                  <p>스타상 수상</p>
+                                </div>
+                              </div>
+                            </div>
+														
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</s_cover>
+						
+						<s_cover name='main-panel-2'>
+							<div class="main_news_field">
+							<div class="main_content_wrap">
+								<div class="title">
+									<h1>새소식</h1>
+									<p>키워드랩의 새로운 소식을 확인하세요.</p>
+								</div>
+								<ul>
+									<s_cover_item>
+										<li>
+											<a href="[##_cover_item_url_##]">
+												<span class="thum"><s_cover_item_thumbnail><img src="//i1.daumcdn.net/thumb/C480x360/?fname=[##_cover_item_thumbnail_##]" alt=""></s_cover_item_thumbnail></span>
+												<s_cover_item_article_info>
+													<p class="category">[##_cover_item_category_##]</p>
+												</s_cover_item_article_info>
+												<p class="title">[##_cover_item_title_##]</p>
+												<p class="more">자세히 보기</p>
+											</a>
+										</li>
+									</s_cover_item>
+								</ul>
+							</div>
+							</div>
+						</s_cover>
+
+					</s_cover_rep>
+				</s_cover_group>
+			
+	<!-- // 메인화면 영역 -->
+
+			<s_page_rep>
+				<div class="hgroup">
+					<h1>[##_article_rep_title_##]</h1>
+				</div>
+				<div class="entry-content">
+					[##_article_rep_desc_##]
+				</div>
+			</s_page_rep>
+
+	<!-- 공지사항 표시 -->
+			
+			<s_notice_rep>
+				<div class="hgroup">
+					<h1>[##_notice_rep_title_##]</h1>
+					<div class="post-meta">
+						<span class="author">[##__notice_rep_author_##]</span>
+						<span class="date">[##_notice_rep_date_##]</span>
+						<s_ad_div>
+							<span><a href="[##_s_ad_m_link_##]">수정</a></span>
+							<span><a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a></span>
+						</s_ad_div>
+					</div>
+				</div>
+				<div class="entry-content">
+					[##_notice_rep_desc_##]
+				</div>
+			</s_notice_rep>
+			
+	<!-- // 공지사항 표시 -->
+
+	<!-- 리스트 헤더 -->
+
+			<s_list>
+				<div class="post-header">
+					
+					<div class="category_cover">
+						<div class="category_image"></div>
+						<p class="category_title">[##_list_conform_##]</p>
+					</div>
+					
+				</div>
+				
+			</s_list>
+			
+	 <!-- // 리스트 헤더 -->
+
+	<!-- 페이지 영역 -->
+			
+			<div class="inner">
+				<s_article_protected>
+					<s_index_article_rep>
+						<div class="post-item">
+							<a href="[##_article_rep_link_##]">
+								<span class="thum"></span>
+								<span class="title">[##_article_rep_title_##]</span>
+								<span class="excerpt">보호되어 있는 글입니다.</span>
+								<span class="more">더보기</span>
+							</a>
+						</div>
+					</s_index_article_rep>
+					<s_permalink_article_rep>
+						<div class="hgroup">
+							<div class="category">보호글</div>
+							<h1>[##_article_rep_title_##] </h1>
+							<div class="post-meta">
+								<span class="author">[##_article_rep_author_##]</span>
+								<span class="date">[##_article_rep_date_##]</span>
+							</div>
+						</div>
+						<div class="entry-content">
+							[##_article_rep_desc_##]
+							<form class="protected_form" onsubmit="[##_article_dissolve_##]">
+								<p>보호되어 있는 글입니다. 내용을 보시려면 비밀번호를 입력하세요.</p>
+								<input type="password" id="[##_article_password_##]" name="[##_article_password_##]" value="" placeholder="비밀번호" />
+								<button type="submit" class="btn">확인</button>
+							</form>
+						</div>
+					</s_permalink_article_rep>
+				</s_article_protected>
+
+				<!-- 카테고리 리스트 -->
+				
+				<s_article_rep>
+					<div class="post-container">
+					<s_index_article_rep>
+						
+						<div class="post-item">
+							<a href="[##_article_rep_link_##]">
+								<span class="thum">
+									<s_article_rep_thumbnail>
+										<img src="//i1.daumcdn.net/thumb/C600x400/?fname=[##_article_rep_thumbnail_raw_url_##]" alt="">
+									</s_article_rep_thumbnail>
+								</span>
+								<span class="title">[##_article_rep_title_##]</span>
+								<span class="excerpt">[##_article_rep_summary_##]</span>
+								<span class="category">[##_article_rep_category_##]</span>
+								<span class="bar"> | </span>
+								<span class="date">[##_article_rep_simple_date_##]</span>
+							</a>
+						</div>
+						
+					</s_index_article_rep>
+					</div>
+					<s_permalink_article_rep>
+						
+						<!-- 콘텐츠 내용 -->
+						
+						<!-- 글 제목 -->
+						<div class="hgroup">
+							<div class="category_cover">
+								<div class="category_image"></div>
+								<p class="category_title">[##_article_rep_category_##]</p>
+							</div>
+							<h1 class="title">[##_article_rep_title_##]</h1>
+							<p class="date">[##_article_rep_date_##]<p>
+						</div>
+						
+						<div class="entry-content">
+							[##_article_rep_desc_##]
+						</div>
+						
+						<div class="hgroup bottom">
+							<a href="[##_article_rep_category_link_##]">목록보기</a>
+						</div>
+						
+						<!-- //콘텐츠 내용 -->
+						
+					</s_permalink_article_rep>
+				</s_article_rep>
+				
+			</div>
+			
+	<!-- // 페이지 영역 -->
+
+	<!-- 문의게시판 -->
+			
+			<s_guest>
+				
+				<div class="category_cover">
+					<div class="category_image"></div>
+					<p class="category_title">문의</p>
+				</div>
+				
+				<div class="comments guest">
+					<s_guest_input_form>
+						<div class="comment-form">
+							<s_guest_member>
+								<div class="field">
+									<s_guest_form>
+										<input type="text" name="[##_guest_input_name_##]" value="[##_guest_name_##]" placeholder="이름" maxlength="6">
+										<input type="password" name="[##_guest_input_password_##]" value="[##_guest_password_##]" placeholder="암호" maxlength="4">
+									</s_guest_form>
+								</div>
+							</s_guest_member>
+							<textarea name="[##_guest_textarea_body_##]" cols="" rows="4" placeholder="문의내용"></textarea>
+							<div class="submit">
+								<button type="submit" class="btn" onclick="[##_guest_onclick_submit_##]">문의하기</button>
+							</div>
+						</div>
+						<table class="table title">
+							<tbody>
+                <tr>
+                  <th>문의 / 답변</th>
+                  <th class="name">작성자</th>
+									<th class="date">작성일</th>
+									<th class="delete">변경</th>
+                </tr>
+							</tbody>
+						</table>
+					</s_guest_input_form>
+
+					<s_guest_container>
+						<div class="comment-list">
+							<ul>
+								<s_guest_rep>
+									<li id="[##_guest_rep_id_##]">
+										<table class="table">
+										<tbody>
+                       <tr>
+												 <div class="mobile_td">
+													 <p class="mobile_name">[##_guest_rep_name_##] 
+														 <a href="#" onclick="[##_guest_rep_onclick_delete_##]">변경</a><br>
+													 </p>
+													 <p class="mobile_date">[##_guest_rep_date_##]</p>
+												 </div>
+                         <td>[##_guest_rep_desc_##]</td>
+                         <td class="name">[##_guest_rep_name_##]</td>
+												 <td class="date">[##_guest_rep_date_##]</td>
+												 <td class="delete"><a href="#" onclick="[##_guest_rep_onclick_delete_##]">변경</a></td>
+                       </tr>
+										</tbody>
+										</table>
+										<s_guest_reply_container>
+											<ul>
+												<s_guest_reply_rep>
+													<li id="[##_guest_rep_id_##]">
+														<table class="table">
+															<tbody>
+                    				   <tr>
+																 <div class="mobile_td">
+													 				<p class="mobile_name">담당자 
+																	 <a href="#" onclick="[##_guest_rep_onclick_delete_##]">변경</a><br>
+													 				</p>
+													 				<p class="mobile_date">[##_guest_rep_date_##]</p>
+												 				</div>
+															 	<td>[##_guest_rep_desc_##]</td>
+																<td class="name">담당자</td>
+																<td class="date">[##_guest_rep_date_##]</td>
+																<td class="delete"><a href="#" onclick="[##_guest_rep_onclick_delete_##]">변경</a></td>
+                    					   </tr>
+																</tbody>
+															</table>
+													</li>
+												</s_guest_reply_rep>
+											</ul>
+										</s_guest_reply_container>
+									</li>
+								</s_guest_rep>
+							</ul>
+						</div>
+					</s_guest_container>
+				</div>
+			</s_guest>
+			
+	<!-- // 문의게시판 -->
+
+	<!-- 페이징 가리기 -->
+			<s_paging>
+				<div class="pagination">
+					<a [##_prev_page_##] class="prev [##_no_more_prev_##]"><i class="fas fa-chevron-left"></i> 이전 </a>
+					<s_paging_rep>
+						<a [##_paging_rep_link_##]>[##_paging_rep_link_num_##]</a>
+					</s_paging_rep>
+					<a [##_next_page_##] class="next [##_no_more_next_##]"> 다음 <i class="fas fa-chevron-right"></i></a>
+				</div>
+			</s_paging>
+  <!-- // 페이징 가리기 -->
+			
+		</article>
+		
+	</section>
+	
+	<!-- // Container 영역 -->
+	
+	<hr>
+	
+	<!-- footer 영역 -->
+	<div class="footer_before">
+	<div class="main_contact_field">
+		<div class="main_content_wrap">
+			<div class="title">
+				<h1>무엇이든 문의하세요</h1>
+				<p>서비스 문의에서부터 일반 문의에 이르기까지 키워드랩이 도와드립니다.</p>
+			</div>
+			<div class="button">
+				<a href="/guestbook">문의하기</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	<footer id="footer">
+		<div class="footer_sitemap">
+			<div class="title">
+				<h1>사이트맵 |</h1>
+			</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<h1><a href="/entry/회사소개">키워드랩</a></h1>
+						<ul>
+							<li><a href="/entry/회사소개">회사소개</a></li>
+							<li><a href="/entry/참여사업">참여사업</a></li>
+							<li><a href="/entry/수상-및-특허">수상 및 특허</a></li>
+						</ul>
+					</li>
+					<li>
+						<h1><a href="/entry/OCT">연구</a></h1>
+						<ul>
+							<li><a href="/entry/OCT">OCT</a></li>
+							<li><a href="/entry/머신러닝">머신러닝</a></li>
+							<li><a href="/entry/빅데이터">빅데이터</a></li>
+							<li><a href="/entry/센서네트워크">센서네트워크</a></li>
+						</ul>
+					</li>
+					<li>
+						<h1><a href="/category/개발">개발</a></h1>
+						<ul>
+							<li><a href="/category/개발/웹개발">웹개발</a></li>
+							<li><a href="/category/개발/앱개발">앱개발</a></li>
+							<li><a href="/category/개발/어플리케이션">어플리케이션</a></li>
+						</ul>
+					</li>
+					<li>
+						<h1><a href="/entry/램플">제품화</a></h1>
+						<ul>
+							<li><a href="/entry/램플">램플</a></li>
+							<li><a href="/entry/똑똑한리딩펜">똑똑한리딩펜</a></li>
+							<li><a href="/entry/안전벨트클립">안전벨트클립</a></li>
+						</ul>
+					</li>
+					<li>
+						<h1><a href="/category/디자인">디자인</a></h1>
+						<ul>
+							<li><a href="/category/디자인/브랜딩">브랜딩</a></li>
+							<li><a href="/category/디자인/제품">제품</a></li>
+							<li><a href="/category/디자인/시각디자인">시각디자인</a></li>
+						</ul>
+					</li>
+					<li>
+						<h1><a href="/category/새소식">새소식</a></h1>
+						<ul>
+							<li><a href="/category/새소식/기업소식">기업소식</a></li>
+							<li><a href="/category/새소식/업계뉴스">업계뉴스</a></li>
+							<li><a href="/category/새소식/채용정보">채용정보</a></li>
+						</ul>
+					</li>
+					<li>
+						<h1><a href="/guestbook">문의</a></h1>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer_top">
+			<a href="#"><span> 위로 </span><i class="fas fa-angle-up"></i></a>
+		</div>
+		<div class="footer_container">
+			<div class="footer_logo">
+				<img src="./images/logo.png">
+			</div>
+			<div class="footer_info">
+				<p>경북 경산시 삼풍로 27 경북테크노파크 글로벌벤처동 청년창업지원센터 307호</p>
+				<p>대표전화 : 070-5123-3326</p>
+				<p class="copy">Copyright ⓒ <strong>Keywordlab</strong> All Rights Reserved.</p>
+			</div>
+		</div>
+		<!-- 작성중... -->
+	</footer>
+	
+	<!-- // footer 영역 -->
+	
+</div>
+<script src="./images/script.js"></script>
+	
+  <!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+			mousewheel: {
+   			invert: false,
+			},
+			autoplay: {
+    		delay: 3000,
+  		},
+    });
+  </script>
+</s_t3>
+</body>
+</html>
