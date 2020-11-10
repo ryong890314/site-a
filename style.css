@@ -518,6 +518,10 @@ img, fieldset {
 	#gnb.on {
 		right: 0;
 	}
+	#gnb .main_ul {
+		overflow-y: auto;
+		height: 100%;
+	}
 	#gnb .main_ul li {
 		width: 100%;
 		border-bottom: 1px solid rgba(255,255,255,0.5);
